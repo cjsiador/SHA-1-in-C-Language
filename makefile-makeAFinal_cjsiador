@@ -1,0 +1,6 @@
+aFinal_cjsiador: aFinal_cjsiador.o
+	gcc aFinal_cjsiador.o -o aFinal_cjsiador
+
+aFinal_cjsiador.o: aFinal_cjsiador.c
+	gcc -c aFinal_cjsiador.c
+
